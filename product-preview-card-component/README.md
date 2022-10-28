@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/mobile-view.JPG)
 ![](./images/desktop-view.JPG)
+![](./images/mobile-view.JPG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/develoba/frontendmentor_challenges/tree/main/product-preview-card-component)
+- Live Site URL: [Add live site URL here](https://imaginative-pixie-ca45d4.netlify.app/)
 
 ## My process
 
