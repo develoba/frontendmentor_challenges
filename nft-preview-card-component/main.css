@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* VARIABLES */
+:root {
+    /* COLORS */
+    --text-color: hsl(215, 51%, 70%);
+    --price-color: hsl(178, 100%, 50%);
+    --hover-color: hsl(178, 100%, 50%);
+    --hover-color-transparency: hsla(178, 100%, 50%, 0.482);
+    --bg-color: hsl(217, 54%, 11%);
+    --bg-card-color: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    /* FONT */
+    --ff: 'Outfit', sans-serif;
+    --fs: 18px;
+}
+
+/* || RESET ANG GENERAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font: var(--fs) var(--ff);
+}
+body {
+    height: 100vh;
+    background-color: var(--bg-color);
+    display: grid;
+    place-content: center;   
+}
+.offscreen {
+    position: absolute;
+    top: -10000px;
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+/* || MAIN CARD */
+.card {
+    width: 80%;
+    max-width: 500px;
+    background-color: var(--bg-card-color);
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px 30px rgba(0,0,0,.2);
+}
+.card__figure {
+    position: relative;
+    background-color: var(--hover-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card__view {
+    height: 80px;
+    width: auto;
+    position: absolute;
+    top: -100px;
+    left: calc(50% - 40px);
+    z-index: 1;
+}
+.card__img:hover {
+    opacity: .5;
+    cursor: pointer;
+    transition: .2s;
+}
+.card__img:hover ~ .card__view {
+    top: calc(50% - 40px);
+}
+.card__title {
+    color: var(--white);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.5rem;
+}
+.card__text {
+    color: var(--text-color);
+    font-weight: 300;
+    line-height: 1.5;
+}
+.card__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0 .5rem;
+    color: var(--text-color);
+}
+.card__price {
+    color: var(--price-color);
+}
+.card__price::before {
+    content: url('./images/icon-ethereum.svg');
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+.card__date::before {
+    content: url('./images/icon-clock.svg');
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+.card__line {
+    width: 100%;
+    border-bottom: 1px solid var(--line-color);
+}
+.card__authorinfo {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.card__avatarfigure {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+}
+.card__author-bold {
+    color: var(--white);
+}
+.card__author-bold:hover, .card__title:hover {
+    color: var(--hover-color);
+    cursor: pointer;
+}
+
+/* || FOOTER */
+.attribution {
+    width: 100%;
+    background-color: var(--bg-card-color);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding: .5rem 0;
+    color: var(--text-color)
+}
+.attribution a {
+    color: var(--white);
+}
+.attribution a:hover {
+    color: var(--hover-color);
+}
