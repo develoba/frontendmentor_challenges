@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* VARIABLES */
+:root {
+    /* colors */
+    --white: hsl(0, 0%, 100%);
+    --bg-color: hsl(212, 45%, 89%);
+    --text-color: hsl(220, 15%, 55%);
+    --heading-color: hsl(218, 44%, 22%);
+
+    /* font */
+    --fs: 15px;
+    --ff: 'Outfit', sans-serif;
+}
+
+/* || GENERAL AND RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font: var(--fs) var(--ff);
+}
+body {
+    height: 100vh;
+    background-color: var(--bg-color);
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+.offscreen {
+    position: absolute;
+    top: -10000px;
+}
+img {
+    display: block;
+    width: 100%;
+}
+
+/* || CARD */
+.card {
+    width: 80%;
+    max-width: 380px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, .15)
+}
+.card__img {
+    border-radius: 10px;
+}
+.card__title {
+    margin: 1rem 0;
+    color: var(--heading-color);
+    font-size: 1.5rem;
+}
+.card__text {
+    color: var(--text-color);
+    margin: 0 .5rem 1.5rem;
+}
+
+
+/* || FOOTER */
+.attribution {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: var(--heading-color);
+    color: var(--white);
+    padding: .5rem 0
+}
+.attribution a {
+    color: var(--text-color);
+}
+.attribution a:hover {
+    color: var(--bg-color);
+    cursor: pointer;
+}
