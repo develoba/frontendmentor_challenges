@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./solution.JPG)
+![](./images/solution.JPG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [[Add solution URL here](https://www.frontendmentor.io/solutions/nft-card-component-responsive-and-with-hover-effects-mrf_UfvxOi)](https://www.frontendmentor.io/solutions/nft-card-component-responsive-and-with-hover-effects-mrf_UfvxOi)
+- Live Site URL: [https://calm-syrniki-a84094.netlify.app/](https://calm-syrniki-a84094.netlify.app/)
 
 ## My process
 
@@ -51,7 +51,7 @@ This challenge required a little bit more of good practices and knowledge of CSS
 
 For CSS, besides using Flexbox, Grid and other properties, I used pseudoclasses to insert the icon images in the card, but also to make visible the eye image when hover the figure.
 
-I did'nt know how to do this, but after some thinking and stak overflow research, I figured out this:
+I didn't know how to do this, but after some thinking and stak overflow research, I figured out this:
 - In HTML, the img element is within a figure element (this provides more accesibility info instead of using div). So I applied a background-color to the figure to make it blue
 - In CSS, when hovering the image, it gets opacity and the blue bakcground is shown
 - For the icon to be shown, I inserted it on HTML and then made its position absolute to center it on the image.
