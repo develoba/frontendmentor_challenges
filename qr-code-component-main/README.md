@@ -18,14 +18,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot 
 
-![](./mobile.PNG)
 ![](./desktop.PNG)
+![](./mobile.PNG)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-code-component-using-semantic-html-bem-and-css-grid-b5hgK2gm4C)
+- Live Site URL: [Add live site URL here](https://astonishing-choux-7be9a9.netlify.app/)
 
 ## My process
 
