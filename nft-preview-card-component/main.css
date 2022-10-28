@@ -40,6 +40,13 @@ img{
     display: block;
     width: 100%;
 }
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+a:hover {
+    color: var(--hover-color);
+}
 
 /* || MAIN CARD */
 .card {
@@ -51,28 +58,30 @@ img{
     border-radius: 20px;
     box-shadow: 0 10px 15px 30px rgba(0,0,0,.2);
 }
-.card__figure {
-    position: relative;
-    background-color: var(--hover-color);
+.card__img>img {
     border-radius: 10px;
-    overflow: hidden;
 }
-.card__view {
-    height: 80px;
-    width: auto;
+.card__img {
+    position: relative;
+}
+.card__img::before {
+    content: url('./images/icon-view.svg');
+    background-color: var(--hover-color-transparency);
     position: absolute;
-    top: -100px;
-    left: calc(50% - 40px);
-    z-index: 1;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: .5s;
 }
-.card__img:hover {
-    opacity: .5;
-    cursor: pointer;
-    transition: .2s;
+.card__img:hover::before {
+    opacity: 1;
 }
-.card__img:hover ~ .card__view {
-    top: calc(50% - 40px);
-}
+
 .card__title {
     color: var(--white);
     margin: 1.5rem 0 1rem;
@@ -88,7 +97,9 @@ img{
     align-items: center;
     justify-content: space-between;
     margin: 1rem 0 .5rem;
+    padding-bottom: .5rem;
     color: var(--text-color);
+    border-bottom: 1px solid var(--line-color);
 }
 .card__price {
     color: var(--price-color);
@@ -102,10 +113,6 @@ img{
     content: url('./images/icon-clock.svg');
     vertical-align: middle;
     margin-right: .5rem;
-}
-.card__line {
-    width: 100%;
-    border-bottom: 1px solid var(--line-color);
 }
 .card__authorinfo {
     display: flex;
@@ -138,9 +145,9 @@ img{
     padding: .5rem 0;
     color: var(--text-color)
 }
-.attribution a {
+/* .attribution a {
     color: var(--white);
 }
 .attribution a:hover {
     color: var(--hover-color);
-}
+} */
