@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/mobile-view.JPG =200x300)
-![](./images/desktop-view.JPG =200x300)
+![](./images/mobile-view.JPG)
+![](./images/desktop-view.JPG)
 
 ### Links
 
