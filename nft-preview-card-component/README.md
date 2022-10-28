@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://www.frontendmentor.io/solutions/nft-card-component-responsive-and-with-hover-effects-mrf_UfvxOi)](https://www.frontendmentor.io/solutions/nft-card-component-responsive-and-with-hover-effects-mrf_UfvxOi)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-card-component-responsive-and-with-hover-effects-mrf_UfvxOi](https://www.frontendmentor.io/solutions/nft-card-component-responsive-and-with-hover-effects-mrf_UfvxOi)
 - Live Site URL: [https://calm-syrniki-a84094.netlify.app/](https://calm-syrniki-a84094.netlify.app/)
 
 ## My process
