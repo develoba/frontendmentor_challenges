@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-using-html-and-css-RZYlfWgu-b](https://www.frontendmentor.io/solutions/order-summary-using-html-and-css-RZYlfWgu-b)
+- Live Site URL: [https://super-mandazi-3532b4.netlify.app/](https://super-mandazi-3532b4.netlify.app/)
 
 ## My process
 
@@ -46,7 +46,7 @@ Users should be able to:
 
 I didn't have a lot of difficulties for this project. However, I wanted to focus on writing clean code and HTML structure, while having good accessibility. 
 
-For this to be achieved, I used semantic HTML tags like main, footer and article and tried not to use much div boxed. However, for the part of the plan price, I had to use several div to wrap the elements and apply flexbox to the image and text, and then to both the image+text and anchor tag.
+For this to be achieved, I used semantic HTML tags like main, footer and article and tried not to use much div boxes. However, for the part of the plan price, I had to use several div to wrap the elements and apply flexbox to the image and text, and then to both the image+text and anchor tag.
 
 I also tried to follow a BEM methodology.
 
@@ -54,7 +54,7 @@ For the CSS part, I focus on using rem units so that the design could be respons
 
 Also, I am not sure about how is the best practice to make the card component bigger and responsive, just by adjusting its width using % or rem, or is it better to use another property?
 
-I will keep on doing some challenges and keep learning. If you have any suggestions, I would really appreciate it.
+I will keep on doing some challenges and keep on learning. If you have any suggestions, I would really appreciate it.
 
 
 ## Author
