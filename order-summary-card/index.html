@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <main class="card">
+    
+    <figure class="card__figure">
+      <img src="./images/illustration-hero.svg" alt="girl listening to music" class="card__img">
+      <figcaption class="sr-only">Girl enjoying music</figcaption>
+    </figure>
+
+    <article class="card__content">
+
+      <h1 class="card__title">Order Summary</h1>
+      <p class="card__desc">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+
+      <div class="card__plan">
+        
+        <div class="card__info">
+          <img src="./images/icon-music.svg" alt="music icon" class="card__music" aria-hidden="true">
+          <p class="card__info-wrapper">
+            <span class="card__info-title">Annual Plan</span>
+            <span class="card__info-price">$59.99/year</span>
+          </p>
+        </div>
+
+        <a href="#" class="card__change" aria-label="Click to changhe the plan selected">Change</a>
+      </div>
+
+      <button class="card__cta" aria-label="Continue with the plan and pay">Proceed to Payment</button>
+
+      <button class="card__cancel">Cancel Order</button>
+    </article>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by 🐺 <a href="https://github.com/develoba">DeveLoba</a>.
+  </footer>
+</body>
+</html>
