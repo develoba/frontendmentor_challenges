@@ -161,9 +161,6 @@ footer a:hover {
 }
 
 @media screen and (min-width: 820px) {
-    html {
-        font-size: 1.3rem;
-    }
     body {
         background: url('./images/pattern-background-desktop.svg') var(--bg-color) repeat-x;
 
@@ -171,7 +168,5 @@ footer a:hover {
     .card {
         width: 50%;
     }
-    .card__music {
-        height: 2.5rem;
-    }
+
 }
