@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My FrontenMentor solution](https://your-solution-url.com)
-- Live Site URL: [Online page](https://your-live-site-url.com)
+- Solution URL: [My FrontenMentor solution](https://www.frontendmentor.io/solutions/single-price-card-using-css-grid-and-bem-methodology-JDpGR2_-hv)
+- Live Site URL: [Online page](https://eclectic-fairy-986bfb.netlify.app/)
 
 ## My process
 
@@ -51,6 +51,6 @@ I didn't find any complications on coding this card. However, if you think the c
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@develoba](https://www.frontendmentor.io/profile/develoba)
+- Twitter - [@develoba](https://www.twitter.com/develoba)
 
