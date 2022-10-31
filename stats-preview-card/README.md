@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FrontendMentor Solution](https://your-solution-url.com)
-- Live Site URL: [Stats preview page](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor Solution](https://www.frontendmentor.io/solutions/stats-preview-card-with-html-css-and-responsiveness-yXt-rGOd-5)
+- Live Site URL: [Stats preview page](https://superb-cupcake-a902f2.netlify.app/)
 
 ## My process
 
