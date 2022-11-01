@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FrontendMentor solution]()
-- Live Site URL: [Online page]()
+- Solution URL: [FrontendMentor solution](https://aesthetic-cupcake-559570.netlify.app/)
+- Live Site URL: [Online page](https://www.frontendmentor.io/solutions/column-card-preview-html-and-css-using-pseudo-elements-nBx3BDEnXm)
 
 ## My process
 
