@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* || VARIABLES */
+:root {
+    /* ---COLORS */
+    --bg-color: hsl(185, 75%, 39%);
+    --heading-color: hsl(229, 23%, 23%);
+    --text-color: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+
+    /* ---FONT */
+    --fs: 18px;
+    --ff: 'Kumbh Sans', sans-serif;
+}
+
+/* || RESET AND GENERAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: var(--fs) var(--ff);
+}
+
+li {
+    list-style-type: none;
+}
+
+.sr-only {
+    position: absolute;
+    top: -10000px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;    
+    background-color: var(--bg-color);
+}
+main {
+    width: 100vw;
+}
+
+.bg-img {
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    z-index: -1;
+}
+
+.top-img {
+    background: url('./images/bg-pattern-top.svg');
+    background-position: 100% 100%;
+    top: 0;
+}
+.bottom-img {
+    background-image: url('./images/bg-pattern-bottom.svg');
+    bottom: 0;
+    right: 0;
+}
+
+/* || CARD */
+.card__container {
+    width: min(90%, 400px);
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    overflow: hidden;
+}
+
+/* ---CARD-HERO */
+.card__hero {
+    height: 7.5em;
+    width: 100%;
+    background: url(./images/bg-pattern-card.svg) center/cover no-repeat;
+    position: relative;
+}
+.card__figure {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 4px solid white;
+    overflow: hidden;
+
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(100% - 47px);
+}
+
+/* ---CARD CONTENT */
+.card__name {
+    margin: calc(47px + 1rem) 0 .25rem;
+    font-size: 1.1rem;
+}
+.card__age {
+    color: var(--text-color);
+    font-weight: 400;
+    margin-left: .25rem;
+}
+.card__city {
+    color: var(--text-color);
+    margin-bottom: 1.3rem;
+}
+.card__statistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid var(--dark-gray);
+    padding: 1.5rem;
+}
+.card__statistic {
+    display: flex;
+    flex-flow: column nowrap;
+    color: var(--heading-color);
+    font-weight: bolder;
+}
+.card__statistic span {
+    color: var(--text-color);
+    font-weight: normal;
+    font-size: .6rem;
+    letter-spacing: .1rem;
+    margin-top: .25rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .bg-img {
+        width: 500px;
+        height: 400px;
+    }
+}
