@@ -28,8 +28,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution]()
-- Live Site URL: [Online Page]()
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/profile-card-component-using-html-and-css-wk_6tdBqF8)
+- Live Site URL: [Online Page](https://gleeful-salmiakki-b47822.netlify.app/)
 
 ## My process
 
