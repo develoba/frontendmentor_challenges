@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution]()
-- Live Site URL: [Online preview]()
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/social-proof-section-with-html-and-css-grid-and-flexbox-M6y8DzPBdF)
+- Live Site URL: [Online preview](https://velvety-mermaid-b363c5.netlify.app/)
 
 ## My process
 
