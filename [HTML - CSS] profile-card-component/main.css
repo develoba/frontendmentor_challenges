@@ -43,12 +43,16 @@ body {
     display: grid;
     place-content: center;    
     background-color: var(--bg-color);
+
+    background-image: url('./images/bg-pattern-top.svg'), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 main {
     width: 100vw;
 }
 
-.bg-img {
+/* .bg-img {
     width: 250px;
     height: 450px;
     position: absolute;
@@ -64,7 +68,7 @@ main {
     background-image: url('./images/bg-pattern-bottom.svg');
     bottom: 0;
     right: 0;
-}
+} */
 
 /* || CARD */
 .card__container {
@@ -131,9 +135,8 @@ main {
     margin-top: .25rem;
 }
 
-@media screen and (min-width: 1024px) {
-    .bg-img {
-        width: 500px;
-        height: 400px;
+/* @media screen and (min-width: 1024px) {
+    body {
+
     }
-}
+} */
