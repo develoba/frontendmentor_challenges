@@ -33,7 +33,7 @@ body {
     display: grid;
     place-content: center;
 }
-main, header {
+main {
     max-width: 80%;
     margin: 2rem auto;
 }
@@ -60,6 +60,7 @@ img {
     text-align: center;
 }
 .header__title {
+    width: 100%;
     color: var(--dark-blue);
     margin: 3rem 0 1rem;
 }
