@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor solution]()
-- Live Site URL: [Online preview]()
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/four-card-feature-using-html-and-css-pAsWTC9zVp)
+- Live Site URL: [Online preview](https://superb-kulfi-bc009f.netlify.app/)
 
 ## My process
 
