@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor solution]()
-- Live Site URL: [Live Solution]()
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-html-and-css-HELIWMAVI9)
+- Live Site URL: [Live Solution](https://app.netlify.com/sites/tubular-dieffenbachia-587ff8/overview)
 
 ## My process
 
