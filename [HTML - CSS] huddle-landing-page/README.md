@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-html-and-css-HELIWMAVI9)
-- Live Site URL: [Live Solution](https://app.netlify.com/sites/tubular-dieffenbachia-587ff8/overview)
+- Live Site URL: [Live Solution](https://peppy-alpaca-163580.netlify.app/)
 
 ## My process
 
