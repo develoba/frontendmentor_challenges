@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <div class="header__container">
+      <img src="./img/logo.svg" alt="logo web 3" class="header__logo">
+
+      <nav class="header__nav menu-hidden">
+        <img src="./img/icon-menu-close.svg" alt="menu button to close navigation" class="header__btn--close hidden"> 
+        <ul class="header__links hidden">
+          <li class="header__link"><a href="#home">Home</a></li>
+          <li class="header__link"><a href="#new">New</a></li>
+          <li class="header__link"><a href="#">Popular</a></li>
+          <li class="header__link"><a href="#">Trending</a></li>
+          <li class="header__link"><a href="#">Categories</a></li>
+        </ul>
+      </nav>
+      <img src="./img/icon-menu.svg" alt="menu button to open navigation" class="header__btn">
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <picture class="hero__img">
+        <source srcset="./img/image-web-3-desktop.jpg" media="(min-width: 768px)">
+        <img src="./img/image-web-3-mobile.jpg" alt="web 3.0">
+      </picture>
+
+      <h1 class="hero__title">The Bright Future of Web 3.0?</h1>
+
+      <div class="hero__content">
+        <p class="hero__desc">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        <a href="#" class="hero__btn">Read more</a>
+      </div>
+    </section>
+
+    <aside class="new" id="new">
+      <h2 class="new__title">New</h2>
+
+      <section class="new__card">
+        <a href="#" class="new__cardTitle">Hydrogen VS Electric Cars</a>
+        <p class="new__cardInfo">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </section>
+      <section class="new__card">
+        <a href="#" class="new__cardTitle">The Downsides of AI Artistry</a>
+        <p class="new__cardInfo">What are the possible adverse effects of on-demand AI image generation?</p>
+      </section>
+      <section class="new__card">
+        <a href="#" class="new__cardTitle">Is VC Funding Drying Up?</a>
+        <p class="new__cardInfo">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </section>
+    </aside>
+
+    <article class="blog">
+      <section class="blog__card">
+        <img src="./img/image-retro-pcs.jpg" alt="retro pcs" class="blog__cardImg">
+
+        <div class="blog__cardContent">
+          <p class="blog__cardNumber">01</p>
+          <a href="#" class="blog__cardTitle">Reviving Retro PCs</a>
+          <p class="blog__cardInfo">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </section>
+
+      <section class="blog__card">
+        <img src="./img/image-top-laptops.jpg" alt="top laptops of 2022" class="blog__cardImg">
+
+        <div class="blog__cardContent">
+          <p class="blog__cardNumber">02</p>
+          <a href="#" class="blog__cardTitle">Top 10 Laptops of 2022</a>
+          <p class="blog__cardInfo">Our best picks for various needs and budgets.</p>
+        </div>
+      </section>
+
+      <section class="blog__card">
+        <img src="./img/image-gaming-growth.jpg" alt="gaming device" class="blog__cardImg">
+
+        <div class="blog__cardContent">
+          <p class="blog__cardNumber">03</p>
+          <a href="#" class="blog__cardTitle">The Growth of Gaming</a>
+          <p class="blog__cardInfo">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </section>
+    </article>
+  </main>
+  
+  <footer class="attribution sr-only">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by 🐺<a href="https://github.com/develoba" target="_blank">DeveLoba</a>.
+  </footer>
+</body>
+</html>
