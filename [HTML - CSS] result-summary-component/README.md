@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Live in Netlify](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/develoba/frontendmentor_challenges/tree/main/%5BHTML%20-%20CSS%5D%20result-summary-component)
+- Live Site URL: [Live in Netlify](https://deluxe-peony-950072.netlify.app/)
 
 ## My process
 
