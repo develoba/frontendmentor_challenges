@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://www.frontendmentor.io/solutions/html-and-css-landing-page-xd5R7jwCVG)
+- Live Site URL: [](https://tangerine-baklava-4ace1b.netlify.app/)
 
 ## My process
 
