@@ -54,7 +54,6 @@ p {
     flex-direction: column;
     gap: 3rem;
     border-radius: 25px;
-    transition: all .2s ease-in-out;
 }
 
 .logo {
@@ -172,4 +171,43 @@ p {
 .inactive {
     display: none;
     
+}
+
+
+@media screen and (max-width: 376px) {
+    p {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+    .card {
+        padding: 2.5rem;
+        width: 330px;
+        height: 360px;
+    }
+    .logo {
+        width: 4rem;
+        height: 4rem;
+        padding: 1.2rem;
+    }
+    .logo img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .bottom {
+        gap: 2rem;
+    }
+    .content {
+        gap: 1.5rem;
+    }
+    .rates label {
+        height: 4rem;
+        width: 4rem;
+    }
+    .hero-img {
+        display: grid;
+        place-content: center;
+    }
+    .top {
+        gap: 1.5rem;
+    }
 }
