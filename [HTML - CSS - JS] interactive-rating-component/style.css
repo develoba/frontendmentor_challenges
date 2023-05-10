@@ -1,0 +1,32 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rates {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.rates label {
+    cursor: pointer;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    color: white;
+}
+.rates input[type="radio"] {
+    display: none;
+}
+.rates input[type="radio"]:checked + label {
+    background-color: orange;
+}
