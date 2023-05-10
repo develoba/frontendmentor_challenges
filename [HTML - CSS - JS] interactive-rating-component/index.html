@@ -9,12 +9,12 @@
   <title>Frontend Mentor | Interactive rating component</title>
 
   <link rel="stylesheet" href="./style.css">
-  <script src="./script.js"></script>
+  
 </head>
 <body>
 
   <!-- Rating state start -->
-  <section class="rating card">
+  <section class="rating card" id="rateCard">
     <div class="logo">
       <img src="./images/icon-star.svg" alt="" class="logo__img">
     </div>
@@ -45,14 +45,14 @@
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-  <section class="result card inactive">
+  <section class="result card inactive" id="resultCard">
     <div class="top">
       <div class="hero-img">
         <img src="./images/illustration-thank-you.svg" alt="">
       </div>    
   
       <div class="result-banner">
-        <p>You selected <span id="rate-result"></span> out of 5</p>
+        <p>You selected <span id="rate-result">0</span> out of 5</p>
       </div>
     </div>
 
@@ -65,4 +65,6 @@
 
   <!-- Thank you state end -->
 </body>
+
+<script src="./script.js"></script>
 </html>

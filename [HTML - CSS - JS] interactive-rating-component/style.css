@@ -54,6 +54,7 @@ p {
     flex-direction: column;
     gap: 3rem;
     border-radius: 25px;
+    transition: all .2s ease-in-out;
 }
 
 .logo {
@@ -170,4 +171,5 @@ p {
 
 .inactive {
     display: none;
+    
 }
