@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --text-very-dark-desaturated-blue: hsl(238, 29%, 16%);
+    --text-soft-red: hsl(14, 88%, 65%);    
+    --bg-grad-soft-violet: hsl(273, 75%, 66%);
+    --bg-grad-soft-blue: hsl(240, 73%, 65%);    
+    --text-very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --text-dark-grayish-blue: hsl(240, 6%, 50%);    
+    --border-light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Kumbh Sans', sans-serif;
+    box-sizing: inherit;
+}
+body {
+    min-height: 100vh;
+    font-size: 1.2rem;
+    background-color: darkslateblue;
+    display: grid;
+    place-content: center;
+}
+button {
+    border: none;
+    background-color: transparent;
+    padding-right: 1.5rem;
+}
+.bold {
+    font-weight: bold;
+}
+/* MAIN CARD */
+.container {
+    background: white;
+    display: flex;
+    gap: 8rem;
+    border-radius: 25px;
+    box-shadow: 0 20px 15px 0px rgba(0,0,0,.2);
+}
+
+/* PICTURE */
+.picture {
+    height: 100%;
+    width: 40rem;
+    background: url('./images/illustration-woman-online-desktop.svg') 110% center no-repeat, url('./images/bg-pattern-desktop.svg') 100% 65% no-repeat;
+    position: relative;
+}
+.picture::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url('./images/illustration-box-desktop.svg') no-repeat;
+    position: absolute;
+    top: 41%;
+    left: -23%;
+}
+
+
+/* CONTENT */
+.content {
+    padding: 8rem 9.5rem 8rem 0;
+}
+.content__title {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+.question__container {
+    width: 35rem;
+    border-bottom: 1px solid var(--border-light-grayish-blue);
+    padding: 2rem 0;
+}
+.question__header {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+
+
+.question__arrow {
+    width: 1.5rem;
+}
+.question__arrow.rotate {
+    transform: rotate(180deg);
+}
+.question__title {
+    font-size: 1.5rem;
+}
+.question__text {
+    display: none;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+.active {
+    display: block;
+}
