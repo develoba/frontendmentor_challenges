@@ -25,7 +25,7 @@ html {
 body {
     min-height: 100vh;
     font-size: 1.2rem;
-    background-color: darkslateblue;
+    background: linear-gradient(var(--bg-grad-soft-violet), var(--bg-grad-soft-blue));
     display: grid;
     place-content: center;
 }
@@ -33,6 +33,10 @@ button {
     border: none;
     background-color: transparent;
     padding-right: 1.5rem;
+    cursor: pointer;
+}
+button:hover .question__title {
+    color: var(--text-soft-red);
 }
 .bold {
     font-weight: bold;
@@ -71,6 +75,7 @@ button {
 .content__title {
     text-transform: uppercase;
     margin-bottom: 1.5rem;
+    color: var(--text-very-dark-grayish-blue);
 }
 .question__container {
     width: 35rem;
@@ -84,8 +89,6 @@ button {
     justify-content: space-between;
     
 }
-
-
 .question__arrow {
     width: 1.5rem;
 }
@@ -94,11 +97,13 @@ button {
 }
 .question__title {
     font-size: 1.5rem;
+    color: var(--text-very-dark-desaturated-blue);
 }
 .question__text {
     display: none;
     line-height: 1.5;
     margin-top: 1rem;
+    color: var(--text-dark-grayish-blue);
 }
 .active {
     display: block;
