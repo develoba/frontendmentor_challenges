@@ -4,17 +4,16 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Article preview component solution](#frontend-mentor---article-preview-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+  - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -29,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./)
+![](./preview.png)
 
 ### Links
 
@@ -44,11 +43,15 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- JavaScript
 
 ### What I learned
 
+It is quite a simple project; however, I found myself struggling with the change of active states between desktop size and mobile. I think it could be improved with a better structure on my html tag's classes.
 
+Feel free to give me any advice on my code, I would really appreciate! 
 
+Happy coding!
 
 
 ## Author
