@@ -88,6 +88,30 @@ body {
     box-shadow: 0 10px 10px  var(--esaturated-red-shadow);
     position: absolute;
     right: 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.hero__form input[type="submit"]:hover {
+    opacity: .5;
+}
+.error {
+    display: none;
+    position: absolute;
+    height: 2rem;
+    top: calc(50% - 1rem);
+    right: calc(9rem + 2rem);
+}
+.error__border {
+    border: 2px solid var(--soft-red);
+}
+.error__text {
+    display: none;
+    color: var(--esaturated-red);
+    font-size: 1.1rem;
+    padding: 1rem 0 0 2rem;
+}
+.active {
+    display: block;
 }
 
 @media screen and (max-width: 768px) {
@@ -121,5 +145,11 @@ body {
     }
     .hero__form input[type="submit"] {
         width: 7rem;
+    }
+    .error {
+        right: calc(7rem + 1.5rem);
+    }
+    .error__text {
+        text-align: left;
     }
 }
