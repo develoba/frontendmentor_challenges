@@ -67,7 +67,7 @@ body {
 .hero__form {
     position: relative;
 }
-.hero__form input[type="email"] {
+.hero__form input[type="text"] {
     width: 100%;
     background-color: transparent;
     border: 1px solid var(--esaturated-red);
@@ -75,7 +75,7 @@ body {
     border-radius: 50px;
     font: inherit;
 }
-.hero__form input[type="email"]::placeholder {
+.hero__form input[type="text"]::placeholder {
     color: var(--esaturated-red);
     opacity: .5;
 }

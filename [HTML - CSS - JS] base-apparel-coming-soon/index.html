@@ -26,12 +26,12 @@
         Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.      
       </p>
 
-      <form class="hero__form" action="./" >
-        <input id="email" type="email" placeholder="Email Address">
-        <img src="./images/icon-error.svg" alt="" class="error active" id="error">
+      <div class="hero__form">
+        <input id="email" type="text" placeholder="Email Address">
+        <img src="./images/icon-error.svg" alt="" class="error" id="error">
         <input id="btnSubmit" type="submit" value="">
-      </form>
-      <p class="error__text active">Please provide a valid email</p>
+      </div>
+      <p id="errorText" class="error__text">Please provide a valid email</p>
     </section>
 
     <section class="hero__image">
@@ -39,5 +39,6 @@
     </section>
   </main>
   
+  <script src="./script.js"></script>
 </body>
 </html>
